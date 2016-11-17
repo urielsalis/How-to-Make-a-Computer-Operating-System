@@ -19,6 +19,12 @@ Vagrant needs Virtualbox to work, Download and install for your system at https:
 
 Once Vagrant and Virtualbox are installed, we need to define our development environment using a *Vagrantfile*, [create a file named *Vagrantfile*](https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System/blob/master/src/Vagrantfile). This file contains instructions to download the ubuntu xenial32 image. It also defines what prerequisites our environment needs: nasm, make, build-essential, grub and qemu.
 
+Initialize your box:
+
+```
+vagrant init lucid32
+```
+
 Start your box using:
 
 ```
